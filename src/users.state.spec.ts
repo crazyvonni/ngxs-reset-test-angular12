@@ -15,7 +15,6 @@ describe('userState', () => {
   });
 
   afterEach(() => {
-    console.log('reset');
     store.reset({});
   });
 
